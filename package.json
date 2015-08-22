@@ -1,0 +1,27 @@
+{
+  "name": "object-router",
+  "version": "0.0.1",
+  "description": "Route your functions with pattern matching",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/object-router.git"
+  },
+  "keywords": [
+    "object",
+    "router",
+    "pattern",
+    "matching",
+    "bloomrun",
+    "patrun"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/object-router/issues"
+  },
+  "homepage": "https://github.com/mcollina/object-router#readme"
+}
