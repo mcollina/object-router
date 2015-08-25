@@ -1,13 +1,16 @@
 {
   "name": "object-router",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Route your functions with pattern matching",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
     "test": "tape test.js | faucet"
   },
-  "precommit": ["lint", "test"],
+  "precommit": [
+    "lint",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mcollina/object-router.git"
