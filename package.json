@@ -1,6 +1,6 @@
 {
   "name": "object-router",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Route your functions with pattern matching",
   "main": "index.js",
   "scripts": {
