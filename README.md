@@ -30,6 +30,8 @@ router.act({
   cmd: 'hello',
   name: 'world'
 }, console.log)
+
+console.log(router.list())
 ```
 
 ## License

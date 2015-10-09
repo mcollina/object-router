@@ -8,6 +8,7 @@ function objectRouter () {
   return {
     add: add,
     act: act,
+    list: list,
     catalog: catalog
   }
 
@@ -24,6 +25,10 @@ function objectRouter () {
     }
 
     func(msg, callback)
+  }
+
+  function list (pattern) {
+    return catalog.list(pattern, { patterns: true })
   }
 }
 

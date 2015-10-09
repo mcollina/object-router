@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/mcollina/object-router#readme",
   "dependencies": {
-    "bloomrun": "^0.2.0"
+    "bloomrun": "^0.4.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",

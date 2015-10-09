@@ -28,3 +28,29 @@ test('route a call', function (t) {
     }, 'result matches')
   })
 })
+
+test('list all handlers', function (t) {
+  t.plan(1)
+
+  var router = objectRouter()
+
+  router.add({
+    cmd: 'hello'
+  }, handler)
+
+  router.add({
+    cmd: 'hello2'
+  }, handler)
+
+  function handler (msg, cb) {
+    cb(null, {
+      result: 'hello ' + msg.name
+    })
+  }
+
+  t.deepEqual(router.list(), [{
+    cmd: 'hello'
+  }, {
+    cmd: 'hello2'
+  }], 'list matches')
+})
